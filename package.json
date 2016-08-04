@@ -18,7 +18,6 @@
   ],
   "dependencies": {
     "apiapi": "^1.6.1",
-    "axios": "^0.7.0",
-    "bluebird": "^3.0.5"
+    "axios": "^0.7.0"
   }
 }
