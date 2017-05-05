@@ -105,7 +105,7 @@ function parseGetPipelines (res) {
 }
 
 function parseGetLeads (res) {
-    return res.data.response.leads;
+    return res.data.response ? res.data.response.leads : [];
 }
 
 function prepareCreateLead (params, requestBody, opts) {
